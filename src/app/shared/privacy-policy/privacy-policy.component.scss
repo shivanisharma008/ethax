@@ -1,0 +1,159 @@
+
+.policy_header{
+    background-image: url('../../../assets/images/news-bg.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+}
+.policy_header_body{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.47) 38%, #000000 100%);
+    justify-content: start !important;
+    gap: 30px;
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 80vh;
+}
+.policy_header_child1{
+    gap: 10px;
+}
+.policy_header_child1 a{
+    letter-spacing: 3px;
+    // font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+.fa-chevron-right {
+    color: rgba(182, 180, 180, 0.897);
+}
+.policy_content{
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 15px;
+}
+.policy_child2{
+    gap: 15px;
+}
+.policy_child1{
+    gap: 20px;
+    padding-top: 40px;
+}
+// question1
+.policy_question_answer{
+    gap: 20px;
+}
+.policy_child2_question{
+    gap: 10px;
+}
+.policy_child2_list{
+    gap: 10px;
+}
+
+// question2
+.policy_child2_question2{
+    gap: 15px;
+}
+.policy_child2_question2 p{
+    line-height: 1.7em;
+}
+
+// question3
+.policy_question_answer3{
+    gap: 15px;
+}
+.policy_child2_list3{
+    gap: 10px;
+}
+.policy_child2_list3 p{
+    line-height: 1.7em;
+}
+
+// question4
+.policy_child2_question4{
+    gap: 10px;
+}
+.policy_child2_question4 p{
+    line-height: 1.7em;
+}
+
+// question5
+.policy_child2_list5 {
+    gap: 15px;
+}
+.policy_child2_list5 p{
+    line-height: 1.7em;
+}
+
+@media screen and (max-width:575px) {
+    .policy_header_body{
+        height: auto;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+    .policy_header_body{
+        height: 55vh;
+    }
+}
+
+
+
+
+// .policy_header{
+//     background-image: url('../../../assets/images/news-bg.jpg');
+//     background-attachment: fixed;
+//     background-position: top center;
+// }
+// .policy_header_body{
+//     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.47) 38%, #000000 100%);
+//     justify-content: start !important;
+//     gap: 30px;
+//     padding-top: 25%;
+//     padding-left: 5%;
+//     padding-right: 5%;
+//     height: 80vh;
+// }
+// .policy_header_child1{
+//     gap: 10px;
+// }
+// .policy_header_child1 a{
+//     letter-spacing: 3px;
+//     // font-weight: lighter;
+// }
+// a{
+//     text-decoration: none;
+// }
+// .fa-chevron-right {
+//     color: rgba(182, 180, 180, 0.897);
+// }
+// .policy_content{
+//     padding-left: 5%;
+//     padding-right: 5%;
+//     gap: 15px;
+// }
+
+// .policy_child1{
+//     gap: 20px;
+// }
+// p{
+//     line-height: 24px;
+// }
+// span{
+//     text-decoration: underline;
+// }
+// table, th, td {
+//     border:1px solid #ffffff;
+//     padding: 15px !important;
+//   }
+
+
+// @media screen and (max-width:575px) {
+//     .policy_header_body{
+//         height: 0%;
+//     }
+// }
+// @media screen and (min-width:576px) and (max-width:767px) {
+//     .policy_header_body{
+//         height: 55vh;
+//     }
+// }
+

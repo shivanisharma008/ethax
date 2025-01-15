@@ -1,0 +1,278 @@
+.trader_main{
+    // background-image: url('../../../../assets/images/section4-bg-image.jpg');
+    // background-attachment: fixed;
+    background-color: black;
+}
+// .resonsive_bg{
+//     display: none;
+// }
+.mobile_img{
+    display: none;
+}
+.trader_body{
+    //  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 50%, #000000 100%);
+     padding-top: 15%;
+     justify-content: start !important;
+     gap: 130px;
+}
+.trader_header_child1{
+    gap: 10px;
+}
+.trader_header_child1 p{
+    letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+}
+.fa-chevron-right {
+    color: rgba(182, 180, 180, 0.897);
+}
+
+.verticle-line{
+    border-left: 5px solid #1FEFF6 !important;
+    // min-height: 40vh;
+    padding-right: 20px;
+}
+.main_content_text{
+    gap: 20px;
+}
+.main_content_text h2{
+    font-size: 20px !important;
+}
+.main_content_text p{
+    line-height: 1.8em !important;
+}
+.section2_left_image img{
+    border: 1px solid #1FEFF6;
+}
+.section2_text{
+    gap: 20px;
+}
+.section2_text a{
+    border: none;
+    transition: all 300ms ease 0ms;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.section2_text a:hover .arrow{
+    display: flex;
+    transition: all 300ms ease 0ms;
+    padding-right: 2px;
+}
+.arrow{
+    display: none;
+}
+
+// section3
+
+.section3_main{
+    background-image: url('../../../../assets/images/section3-bg-image.jpg');
+    background-attachment: fixed;
+}
+.section3_body{
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 50%, #000000 100%);
+}
+.section3_text2 h1{
+    padding: 20px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+// section4
+
+.section4_main{
+    // background-image: url('../../../assets/images/section4-bg-image.jpg');
+    // background-position: center ;
+    background-color: #000000;
+    background-attachment: fixed;
+}
+.section4_body{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 50%, #000000 100%);
+    gap: 40px;
+}
+.main_card{
+    gap: 33px;
+}
+.card{
+    width: 15%;
+    // height: 270px;
+    border-radius: 20px;
+    border: 3px solid #1FEFF6;
+    overflow: hidden;
+    transition: transform .5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card_image img{
+   width: 100%;
+   object-fit: cover;
+}
+.card_text{
+    padding: 7%;
+    gap: 23px;
+}
+.card_text h1{
+    line-height: 1 !important;
+}
+.card_text p{
+    transition: all 300ms ease 0ms;
+}
+.card_text p:hover{
+    color: #1FEFF6 !important;
+    letter-spacing: 2px;
+    transition: all 300ms ease 0ms;
+}
+.section4_images{
+    gap: 25px;
+    padding-bottom: 15%;
+}
+
+@media screen and (max-width:599px) {
+    .trader_body{
+        gap: 25px;
+    }
+    // .trader_header_child2 h1{
+    //     // text-align: center;
+    // }
+    .verticle-line{
+       display: none;
+    }
+    .mobile_img{
+        display: flex;
+    }
+    .trader_section2_body{
+        gap: 20px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .main_content_text h2{
+        text-align: center;
+        font-family: Roboto, Helvetica, Arial, Lucida, sans-serif !important ;
+        text-transform:lowercase;
+        font-weight: 300 !important;
+    }
+    .main_content_text p{
+        text-align: justify;
+        font-weight: 300 !important;
+        font-size: 15px !important;
+    }
+    .trader_section2_left{
+        width: 100% !important;
+    }
+    .section2_left_image, .trader_section2_right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .section2_text p{
+        text-align: justify;
+    }
+    .section2_text_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100% !important;
+    }
+    .section2_text_btn a{
+        width: 70%
+    };
+    .section2_left_image img{
+        border: none;
+    }
+    .trader_section2_right{
+        width: 100% !important;
+    }
+    .section2_text p{
+        line-height: 1.8em !important;
+    }
+    .section3_body{
+        height: auto !important;
+        // padding-top: 60px;
+        align-items: center !important;
+    }
+    .section3_text1 h1{
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        text-align: center;
+        width: 99%;
+        line-height: 1.3;
+        padding-top: 30px;
+    }
+    .section3_text2 h1{
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        text-align: center;
+        width: 88%;
+        padding-left: 10px;
+        line-height: 1.3;
+    }
+    .main_card{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .card{
+        width: 80% !important;
+    }
+    .section4_images a{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+    .trader_body{
+        gap: 30px;
+        padding-top: 4%;
+    }
+    .mobile_img{
+        display: flex;
+        width: 50%;
+    }
+    .trader_section2_body{
+        gap: 20px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .trader_section2_left{
+        width: 100% !important;
+    }
+    .section2_left_image, .trader_section2_right, .section2_text_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .section2_text_btn a{
+        width: 70%
+    };
+    .section2_left_image img{
+        width: 50% !important;
+        border: none;
+    }
+    .trader_section2_right{
+        width: 100% !important;
+    }
+    .section2_text p{
+        line-height: 1.8em !important;
+    } 
+    .section3_body{
+        height: 0% !important;
+        // padding-top: 60px;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .section3_body{
+        text-align: center;
+    }
+    .section3_text1 h1{
+        padding-top: 95px;
+        text-align: center !important;
+    }
+    
+}
+
+

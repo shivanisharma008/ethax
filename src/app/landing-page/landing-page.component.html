@@ -1,0 +1,17 @@
+<!-- <app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer> -->
+
+<mat-sidenav-container style="display: contents;">
+    <mat-sidenav #drawer mode="over" position="end" fixedInViewport  style="width:250px; z-index: 99;">
+      <app-sidenav (toggle)="drawer.toggle()"></app-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenav-content-ui" style="display: contents;">
+        <app-header  (toggle)="drawer.toggle()"></app-header>
+      <div class="outlet-100">
+        <router-outlet></router-outlet>
+      </div>
+      <app-footer (toggle)="drawer.toggle()"></app-footer>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

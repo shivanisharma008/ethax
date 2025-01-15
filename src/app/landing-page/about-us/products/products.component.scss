@@ -1,0 +1,151 @@
+.about_main {
+  background-image: url(../../../../assets/images/about-us/products//products-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50vh;
+}
+
+.about_body {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.47) 38%, #000000 100%);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_body_header {
+  padding: 15% 5% 5% 5%;
+}
+a{
+  text-decoration: none;
+}
+
+.about_body_header_list {
+  gap: 10px;
+}
+
+.about_body_crypto {
+  padding: 6% 5% 5% 5%;
+  gap: 80px;
+}
+
+.about_body_crypto_right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about_body_crypto_right p {
+  line-height: 26px;
+}
+
+.about_body_crypto_right a {
+  padding: 15px 20px;
+  border: none !important;
+  text-decoration: none;
+}
+
+.about_us_parallax {
+  background-image: url(../../../../assets/images/about-us/products/products-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+}
+
+.about_us_parallax_overlay {
+  background-image: linear-gradient(180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      #000000 100%);
+  height: 80vh;
+}
+
+.parallax_list,
+.parallax_content,
+.parallax_pages {
+  padding: 5% 5% 5% 5%;
+}
+
+.parallax_list_left {
+  gap: 30px;
+}
+
+.list {
+  gap: 20px;
+}
+
+.check {
+  border-radius: 100%;
+  padding: 7px;
+}
+
+.parallax_content {
+  line-height: 50px;
+}
+
+.parallax_pages_left {
+  gap: 20px;
+}
+
+@media screen and (max-width:599px) {
+  .about_main{
+    height: auto;
+  }
+  .about_crypto_first {
+    gap: 20px;
+  }
+
+  .about_body_crypto_left,
+  .about_body_crypto_right {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .about_body_crypto_left img {
+    width: 60%;
+  }
+
+  .about_body_crypto_right a {
+    display: none;
+  }
+  .about_us_parallax{
+    height: 0% !important;
+  }
+  .about_us_parallax_overlay{
+    height: 0% !important;
+  }
+  .about_body{
+    height: 0% !important;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+  .about_main{
+    height: 0%;
+  }
+  .about_body{
+    height: 0%;
+  }
+  .about_body_header{
+    padding: 5%;
+  }
+  .about_body_crypto_right a {
+    width: 50%;
+  }
+  .about_us_parallax{
+    height: 0%;
+  }
+  .about_us_parallax_overlay{
+    height:0%;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1439px) {
+  .about_body_crypto_right a {
+    width: 33%;
+  }
+}

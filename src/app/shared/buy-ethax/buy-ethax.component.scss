@@ -1,0 +1,235 @@
+.buy_main{
+    background-image: url('../../../assets/images/banner-image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+.buy_body{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.47) 38%, #000000 100%);
+    justify-content: start !important;
+    gap: 35px;
+    height: 250vh;
+    padding-top: 15%;
+    gap: 30px;
+}
+.buy_header_child1{
+    gap: 10px;
+}
+.buy_header_child1 a{
+    letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+}
+.fa-chevron-right {
+    color: rgba(182, 180, 180, 0.897);
+}
+
+
+.child1_num{
+    background-color: rgba(88, 88, 85, 0.438);
+    padding: 4px 60px;
+}
+.child1_num h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.child1_project p{
+    font-size: 19px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.ethaxSwap_body{
+    border: 7px solid white;
+    padding: 15px;
+    background-color: black;
+}
+.ethaxSwap_child1{
+    width: 70%;
+    // gap: 10%;
+}
+.swap_img img{
+    width: 75%;
+}
+.swap_text{
+    text-align: center;
+}
+.token_button button{
+    background: transparent;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: green;
+    padding: 3px  15px;
+}
+.ethaxSwap_child2{
+    gap: 5px;
+}
+.other_exchange_body{
+    gap: 40px;
+}
+.other_exchange_content{
+    gap: 30px;
+}
+.other_exchange_content_child1{
+    border: 4px solid #4ff9ff;
+    gap: 20px;
+    // padding: 10px;
+}
+.child2{
+    gap: 0;
+}
+.child3 img{
+    border: 3px solid #4ff9ff ;
+}
+.child1_left img{
+    border:11px solid #4ff9ff;
+}
+.child1_right_text p{
+    color: rgba(135, 245, 135, 0.856);
+}
+.child1_right_list{
+    gap: 8px;
+}
+.check-icon{
+    color: rgba(135, 245, 135, 0.856);
+}
+.list_item{
+    gap: 10px;
+}
+.child1_right_button button{
+    background: transparent;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: green;
+    padding: 3px  15px;
+}
+// .changes_body{
+//     gap: 50px;
+// }
+// .changes_imgs{
+//     gap: 30px;
+// }
+// .changes_text{
+//     padding-top: 35px;
+// }
+// .changes_mobile_imgs , .mobile-img , .ethaxSwap_mobile_child2{
+//     display: none;
+// }
+
+@media screen and (max-width:599px) {
+    .buy_body{
+        height: 0%;
+    }
+    .buy_header{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .count_child1{
+        width: 100%;
+    }
+    .child1_num{
+        padding: 8px 20px;
+    }
+    .child1_num h1{
+        font-size: 37px;
+    }
+    .child1_project p{
+        letter-spacing: 4px;
+    }
+    .ethaxSwap_body{
+        gap: 20px;
+    }
+    .ethaxSwap_child1{
+        width: 100% !important;
+        gap: 10px;
+    }
+    .ethaxSwap_child1 img {
+        width: 100% !important;
+    }
+    .swap_text{
+        font-size: 14px !important;
+        text-align: justify;
+    }
+    .ethaxSwap_child2{
+        width: 100% !important;
+    }
+    .child1_left{
+        width: 100%;
+    }
+    .child1_right{
+        width: 100%;
+        padding-bottom: 20px;
+        gap: 20px;
+    }
+    .child1_right_button{
+        width: 100% !important;
+        justify-content: center !important;
+    }
+    .w23{
+        width: 100% !important;
+    }
+   
+
+    // .changes_imgs , .original-img {
+    //     display: none;
+    // }
+    // .changes_mobile_imgs , .mobile-img , .ethaxSwap_mobile_child2{
+    //     display: flex !important;
+    // }
+   
+}
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+    .buy_body{
+        height: 0%;
+    }
+    .count_body{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .buy_header{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .ethaxSwap_child2{
+        width: 25% !important;
+    }
+    .child1_left{
+        width: 100%;
+    }
+    .coinstore-logo{
+        width: 100%;
+    }
+    .child1_right{
+        width: 100%;
+        padding-bottom: 20px;
+        gap: 20px;
+    }
+    .child1_right_button{
+        width: 100% !important;
+        justify-content: center !important;
+    }
+    .w23{
+        width: 30% !important;
+    }
+
+    
+}
+@media screen and (min-width:1024px) and (max-width:1439px) {
+   .buy_body{
+    height: 0%;
+   }
+.count_child1{
+    width: 46%;
+    text-align: center;
+}
+.child1_num h1{
+    font-size: 40px !important;
+}
+.swap_text {
+    font-size: 16px !important;
+}
+.child1_right_text p{
+    font-size: 14px !important;
+}
+}

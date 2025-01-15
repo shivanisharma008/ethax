@@ -1,0 +1,138 @@
+.conditions_header{
+    background-image: url('../../../assets/images/news-bg.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+}
+.conditions_header_body{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.47) 38%, #000000 100%);
+    justify-content: start !important;
+    gap: 30px;
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 80vh;
+}
+.conditions_header_child1{
+    gap: 10px;
+}
+.conditions_header_child1 a{
+    letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+}
+.fa-chevron-right {
+    color: rgba(182, 180, 180, 0.897);
+}
+.conditions_content{
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 90px;
+}
+h3{
+    text-decoration: underline;
+}
+p{
+    line-height: 1.7em;
+}
+.conditions_content_child1{
+    gap: 10px;
+}
+.conditions_main_liability{
+    gap: 20px;
+}
+.conditions_liability{
+    gap: 10px;
+}
+
+@media screen and (max-width:575px) {
+    .conditions_header_body{
+        height: 45vh;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+    .conditions_header_body{
+        height: 60vh;
+    }
+}
+
+// .conditions_header{
+//     background-image: url('../../../assets/images/news-bg.jpg');
+//     background-attachment: fixed;
+//     background-position: top center;
+// }
+// .conditions_header_body{
+//     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.47) 38%, #000000 100%);
+//     justify-content: start !important;
+//     gap: 30px;
+//     padding-top: 25%;
+//     padding-left: 5%;
+//     padding-right: 5%;
+//     height: 80vh;
+// }
+// .conditions_header_child1{
+//     gap: 10px;
+// }
+// .conditions_header_child1 a{
+//     letter-spacing: 3px;
+// }
+// a{
+//     text-decoration: none;
+// }
+// .fa-chevron-right {
+//     color: rgba(182, 180, 180, 0.897);
+// }
+// .conditions_content{
+//     padding-left: 5%;
+//     padding-right: 5%;
+//     gap: 40px;
+// }
+// h3{
+//     text-decoration: underline;
+// }
+// li , p {
+//     line-height: 1.7em;
+// }
+// .conditions_content_child{
+//     gap: 12px;
+// }
+// .content_child_subchild{
+//     gap: 10px;
+// }
+// .subchild_list{
+//     gap: 10px;
+// }
+// // .create_account_child_list{
+// //     gap: 10px;
+// // }
+// // .access_account_child{
+// //     gap: 10px;
+// // }
+
+
+// // h3{
+// //     text-decoration: underline;
+// // }
+// // p{
+// //     line-height: 1.7em;
+// // }
+// // .conditions_content_child1{
+// //     gap: 10px;
+// // }
+// // .conditions_main_liability{
+// //     gap: 20px;
+// // }
+// // .conditions_liability{
+// //     gap: 10px;
+// // }
+
+// @media screen and (max-width:575px) {
+//     .conditions_header_body{
+//         height: 0%;
+//     }
+// }
+// @media screen and (min-width:576px) and (max-width:767px) {
+//     .conditions_header_body{
+//         height: 60vh;
+//     }
+// }

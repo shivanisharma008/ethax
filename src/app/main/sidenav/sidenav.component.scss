@@ -1,0 +1,95 @@
+.sidenav_container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidenav_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidenav_list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+::ng-deep .mat-drawer {
+    background-color: #1a1a1a !important;
+}
+.menu_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+    text-decoration: none !important;
+}
+.menu_item{
+    gap: 15px;
+}
+.submenu{
+    gap: 10px;
+}
+.menu-open{
+    transform: rotate(180deg);
+}
+
+.main_buttons{
+    gap: 25px;
+}
+
+button{
+    position: relative;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.5s;
+    padding: 6px 15px;
+}
+// .second{
+//     width: 13vw;
+// }
+
+// .first:hover {
+//     background: #1FEEF5;
+//     background-size: 400%;
+// }
+.second:hover{
+    background: #CE51EF;
+    background-size: 400%;
+}
+// button:first-child:before,
+button:last-child:before{
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+    box-shadow: 0 0 5px #1FEEF5, 0 0 25px #1FEEF5, 0 0 50px #1FEEF5, 0 0 200px #1FEEF5;
+}
+// button:first-child:hover:before,
+button:last-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+}
+button:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+.one a{
+    text-decoration: none;
+}
+@media screen and (min-width:1024px) and (max-width:1439px){
+    .main_buttons{
+        display: none !important;
+    }
+}

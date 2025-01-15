@@ -1,0 +1,241 @@
+.contact_main {
+    background-image: url('../../../../assets/images/section4-bg-image.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+.contact_body {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.8) 14%, #000000 100%);
+    padding-top: 15%;
+    height: 120vh;
+}
+
+.contact_upper_contact {
+    align-items: flex-start !important;
+}
+
+.faq_header_child1 {
+    gap: 10px;
+}
+.faq_header_child2{
+    padding-bottom: 25px;
+}
+.contact_form{
+    gap: 15px;
+}
+form {
+    gap: 15px;
+}
+
+.form_group input {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 6px;
+    width: 18vw;
+}
+textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 6px;
+    // width: 18vw;
+}
+
+::placeholder {
+    color: gray;
+}
+
+.form_button button {
+    padding-right: 1.7em;
+    padding-left: 0.7em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    gap: 10px;
+    background-color: #bfbfbf !important;
+    color: #474747 !important;
+
+}
+
+.form_button button:hover {
+    transition: color 300ms ease 0ms, background-color 300ms ease 0ms, border 300ms ease 0ms, letter-spacing 300ms ease 0ms;
+    letter-spacing: 1.2px !important;
+}
+
+.text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.contact_child2 {
+    gap: 60px;
+}
+
+.contact_child2_icons {
+    gap: 10px;
+}
+
+.contact_child3_enquiry a {
+    text-decoration: none;
+}
+
+.contact_child3 {
+    gap: 18px;
+}
+
+.contact_child3_enquiry {
+    gap: 10px;
+}
+
+.contact_lower {
+    padding-top: 150px;
+}
+
+.contact_lower_child1 {
+    gap: 40px;
+}
+
+.lower_child1_heading {
+    text-align: center;
+}
+
+.lower_child1_heading p {
+    line-height: 1.8;
+}
+
+.lower_child1_subscribe {
+    gap: 20px;
+}
+
+.lower_child1_subscribe input {
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 65vw;
+}
+
+.lower_child1_subscribe button {
+    border: none;
+    padding: 15px;
+    width: 65vw;
+}
+
+.lower_child1_subscribe button:hover {
+    background-color: #bfbfbf;
+    transition: color 300ms ease 0ms, background-color 300ms ease 0ms, border 300ms ease 0ms, letter-spacing 300ms ease 0ms;
+    letter-spacing: 1.5px !important;
+    color: #474747 !important;
+}
+.error-message{
+    font-size: 12px;
+    color:red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:599px) {
+    .contact_body {
+        height: 0%;
+    }
+    .contact_upper_contact{
+        gap: 40px;
+    }
+    .contact_child1 {
+        width: 100%;
+        // padding-top: 180vw;
+    }
+    .text{
+        width: 100% !important;
+    }
+    .contact_child2 {
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact_child3 {
+        width: 100%;
+    }
+    .contact_child3_enquiry{
+        text-align: center;
+    }
+
+    .form_group input,
+    textarea {
+        width: 90vw;
+    }
+    
+
+}
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+    .contact_body {
+        height: 0%;
+        padding-top: 0%;
+    }
+    .contact_upper_contact{
+        gap: 50px;
+        // padding-top: 15%;
+    }
+    .contact_child1 {
+        width: 100%;
+    }
+    .contact_form{
+        flex-direction: column;
+        gap: 20px;
+    }
+    form{
+        width: 100% !important;
+    }
+    .form_group input,
+    textarea {
+        width: 90vw;
+    }
+    .contact_child2 {
+        width: 40%;
+        align-items: center ;
+        gap: 20px;
+    }
+    .contact_child3 {
+        width: 45% !important;
+        align-items: center ;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    // .contact_body{
+    //     height: 180vh;
+    // }
+    .contact_body{
+        padding-top: 10%;
+    }
+    .contact_form{
+        flex-wrap: nowrap !important;
+    }
+    .form_group input{
+        width: 20vw;
+    }
+    textarea{
+        width: 92%;
+    }
+    .form_button{
+        width: 92%;
+    }
+    .contact_child2_icons i {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    textarea{
+        width: 82%;
+    }
+    .form_button{
+        width: 82%;
+    }
+    
+}

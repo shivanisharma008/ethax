@@ -1,0 +1,374 @@
+.tocken-main{
+    padding-top: 11%;
+}
+.heading1{
+    padding-bottom: 5px;
+}
+.tocken-heading {
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+.verticle-line{
+    border-left: 4px solid #1FEFF6 !important;
+    min-height: 10vh;
+    padding-right: 20px;
+}
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.color-img-main{
+    padding-top: 27px ;
+    padding-bottom: 90px ;
+}
+.colors-img img{
+    border: 2px solid #1FEFF6;
+    border-radius: 20px;
+}
+.responsive-view-image{
+    display: none;
+}
+.colors-img-about{
+    padding-bottom: 20px;
+}
+.colors-img-heading{
+    padding-bottom: 20px;
+}
+.colors-img-content{
+    padding-bottom: 20px;
+}
+.colors-img-content1{
+    display: flex;
+    flex-direction: column;
+}
+.buy-ethax-btn{
+    padding-top: 20px;
+}
+.buy-ethax-btn a{
+    gap: 10px;
+    border:none;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.fa-arrow-right{
+    display: none;
+}
+.buy-ethax-btn a:hover  {
+    padding-right: 20px;
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+.buy-ethax-btn:hover .fa-arrow-right {
+    display: flex;
+}
+.parallax {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    // text-align: center;
+    overflow: hidden;
+}
+.content {
+    background-color: black;
+    padding: 5%;
+    color: white;
+}
+.content-2{
+    padding: 20px;
+    gap: 25px;
+}
+
+// section3
+
+.section3_main{
+    background-image: url('../../../../assets/images/service-section3-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.section3_body{
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 50%, #000000 100%);
+}
+.section3_text_content{
+    gap: 20px;
+}
+.section3_content_item{
+    justify-content: flex-start !important;
+    gap: 20px;
+}
+
+// section4
+
+.section4_main{
+    background-image: url('../../../../assets/images/section4-bg-image.jpg');
+    background-position: center ;
+    background-attachment: fixed;
+}
+.section4_body{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 50%, #000000 100%);
+    gap: 40px;
+}
+.main_card{
+    gap: 33px;
+}
+.card{
+    width: 20%;
+    // height: 270px;
+    border-radius: 20px;
+    border: 3px solid #1FEFF6;
+    overflow: hidden;
+    transition: transform .5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card_image img{
+   width: 100%;
+   object-fit: cover;
+}
+.card_text{
+    padding: 7%;
+    gap: 23px;
+}
+.card_text h1{
+    line-height: 1 !important;
+}
+.card_text p{
+    transition: all 300ms ease 0ms;
+}
+.card_text p:hover{
+    color: #1FEFF6 !important;
+    letter-spacing: 2px;
+    transition: all 300ms ease 0ms;
+}
+.section4_images{
+    gap: 25px;
+    padding-bottom: 15%;
+}
+
+.arrow{
+    display: flex;
+    color: white;
+    padding-left: 8px;
+}
+.card_text p:hover .arrow{
+    color: #1FEFF6;
+}
+.parallax_pages{
+    padding-bottom: 3%;
+}
+
+
+
+
+.token_main{
+    background-image: url('../../../../assets/images/section4-bg-image.jpg');
+    background-attachment: fixed;
+    background-position: top ;
+}
+.token_body{
+     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 50%, #000000 100%);
+     padding-top: 15%;
+     justify-content: start !important;
+     gap: 35px;
+}
+.token_header_child1{
+    gap: 10px;
+}
+.token_header_child1 p{
+    letter-spacing: 3px;
+}
+.fa-chevron-right {
+    color: rgba(182, 180, 180, 0.897);
+}
+.token_images{
+    gap: 20px;
+}
+.colors-img-about p{
+    font-weight: 300 !important;
+}
+.mobile_img{
+    display: none;
+}
+.ethax_mobile_image{
+    display: none;
+}
+
+
+@media screen and (max-width:599px) {
+    .token_body{
+        height: 0% !important;
+    }
+    .token_header{
+        gap: 30px;
+    }
+    .token_images{
+        display: none !important;
+    }
+    .token_header_child2 h1{
+        font-size: 32px !important;
+    }
+    .color-img-main{
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+    .mobile_img {
+        display: flex ;
+    }
+    .ethax_mobile_image {
+        display: flex ;
+    }
+    .verticle-line{
+        display: none;
+    }
+    .about{
+        padding-top: 0px;
+    }
+    .text{
+        font-size: 15px !important;
+        font-family: Roboto, Helvetica, Arial, Lucida, sans-serif !important ;
+        text-align: justify;
+        font-weight: lighter;
+        line-height: 1.8em;
+    }
+    .colors-img{
+        width: 100% !important;
+    }
+    .colors-img img{
+        width: 100% !important;
+        border: none;
+    }
+    .normal-view-image{
+        display: none;
+    }
+    .responsive-view-image{
+        display: flex;
+        border: none;
+    }
+    .colors-img-con{
+        width: 100% !important;
+    }
+    .colors-img-about p{
+        font-size: 15px !important;
+        text-align: justify;
+        font-weight: lighter !important;
+        line-height: 1.8em;
+    }
+    .buy-ethax-btn{
+        display: flex;
+        justify-content: center;
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+    .buy-ethax-btn a{
+        padding: 10px !important;
+        width: 70% !important;
+    }
+    .content-2 h4{
+        font-size: 18px !important;
+        text-align: left;
+        padding-bottom: 4%;
+        font-family: math;
+    }
+    .section3_body{
+        height: 0% !important;
+    }
+    .section3_text{
+        gap: 20px;
+    }
+    .section3_text_content{
+        width: 90%;
+    }
+    .section4_body{
+        padding-top: 20px;
+    }
+    .main_card{
+        flex-direction: column !important;
+    }
+    .card{
+        width: 90% !important;
+    }
+    .section4_images a{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width: 1023px) {
+    .token_body{
+        height: 0% !important;
+        padding-top: 6%;
+    }
+    .mobile_img {
+        display: flex ;
+        width: 50%;
+    }
+    .text{
+        font-family: Roboto, Helvetica, Arial, Lucida, sans-serif !important ;
+        text-align: center;
+        font-weight: lighter;
+        line-height: 1.8em;
+        font-size: 20px !important;
+    }
+    .colors-img{
+        width: 100% !important;
+        display: flex;
+        align-items: center ;
+        justify-content: center ;
+    }
+    .colors-img img{
+        width: 50% !important;
+        border: none;
+    }
+    .normal-view-image{
+        display: none;
+    }
+    .responsive-view-image{
+        display: flex;
+    }
+    .colors-img-con{
+        width: 100% !important;
+    }
+    .colors-img-about p{
+        text-align: center;
+        font-weight: lighter !important;
+        line-height: 1.8em;
+    }
+    .buy-ethax-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .buy-ethax-btn a{
+       padding: 10px 30px;
+    }
+    .verticle-line{
+        display: none;
+    }
+    .section3_body{
+        height: 0% !important;
+    }
+    .section3_text{
+        padding: 6% 0;
+        gap: 20px;
+        align-items: start !important;
+        justify-content: flex-start;
+        padding-left: 8%;
+    }
+    .card{
+        width: 18% !important;
+    }
+    .token_images{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+   

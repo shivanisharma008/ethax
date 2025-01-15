@@ -1,0 +1,95 @@
+<div class="contact_main fx-c-center">
+    <div class="contact_body fx-c-center w100">
+        <div class="contact_upper_contact fx-r-spbtwn fx-wrap w90">
+            <div class="contact_child1 w50">
+                <div class="faq_header_child1 fx-r-start ">
+                    <!-- <p class="text-white font-11 content-font fw-500 cursor" routerLink="/home">HOME</p> -->
+                    <!-- <i class="fa-solid fa-chevron-right font-11"></i>
+                    <p class="text-white font-11 content-font fw-500 cursor" routerLink="/about-us/contact">CONTACT</p> -->
+                </div>
+                <div class="faq_header_child2">
+                    <h1 class="text-white font-40 fw-500">CONTACT</h1>
+                </div>
+                <form [formGroup]="contactForm"  class="fx-dc w100">
+                    <div class="contact_form fx-dr fx-wrap">
+                      <div class="form_group">
+                        <input type="text" placeholder="First Name" class="font-16 text-white content-font" formControlName="firstName">
+                        <div *ngIf="contactForm.get('firstName')?.invalid && (contactForm.get('firstName')?.dirty || contactForm.get('firstName')?.touched)" class="error-message">First Name is required</div>
+                      </div>
+                      <div class="form_group">
+                        <input type="text" placeholder="Surname" class="font-16 text-white content-font" formControlName="surname">
+                        <div *ngIf="contactForm.get('surname')?.invalid && (contactForm.get('surname')?.dirty || contactForm.get('surname')?.touched)" class="error-message">Surname is required</div>
+                      </div>                     
+                    </div>
+                    <div class="contact_form fx-dr fx-wrap">
+                        <div class="form_group">
+                          <input type="text" placeholder="Contact Number" class="font-16 text-white content-font" formControlName="contactNumber">
+                          <div *ngIf="contactForm.get('contactNumber')?.invalid && (contactForm.get('contactNumber')?.dirty || contactForm.get('contactNumber')?.touched)" class="error-message">Contact Number is Required</div>
+                        </div>
+                        <div class="form_group">
+                          <input type="text" placeholder="Email Address" class="font-16 text-white content-font" formControlName="emailAddress">
+                          <div *ngIf="contactForm.get('emailAddress')?.invalid && (contactForm.get('emailAddress')?.dirty || contactForm.get('emailAddress')?.touched)" class="error-message">Invalid email address</div>
+                        </div>
+                      </div>
+                      <div class="contact_form">
+                        <div class="form_group">
+                          <textarea name="" id="" cols="60" rows="5" placeholder="Message" class="font-16 text-white content-font" formControlName="message"></textarea>
+                          <div *ngIf="contactForm.get('message')?.invalid && (contactForm.get('message')?.dirty || contactForm.get('message')?.touched)" class="error-message">Message is required</div>
+                        </div>
+                      </div>
+                      <div class="form_button">
+                        <button type="submit" [disabled]="loading" (click)="onSubmit()" class="fx-r-center content-font font-14 cursor">
+                            <span *ngIf="!loading">SEND MESSAGE</span>
+                            <span *ngIf="loading">Loading...</span>
+                            <i class="fa-solid fa-arrow-right text-black"></i>
+                          </button>
+                      </div>
+                  </form>
+                <div class="text w80">
+                    <a href="" class="text-white font-14 content-font cursor">By sending your message you are agreeing to our
+                        privacy policy and terms & conditions.</a>
+                </div>
+            </div>
+            <div class="contact_child2 fx-dc w20">
+                <div class="contact_child2_text">
+                    <p class="text-white font-22">ETHAX</p>
+                </div>
+                <div class="contact_child2_icons fx-dr">
+                    <!-- <a href="https://www.facebook.com/ethaxcrypto/" target="_blank"><i class="fab fa-facebook-f font-16 text-white cursor"></i></a> -->
+                   
+                    <a href="https://t.me/ETHAXCRYPTOOFFICIALCHAT" target="_blank"><i class="fab fa-telegram font-16 text-white cursor"></i></a>                   
+                    <a href="https://twitter.com/EthaxCrypto" target="_blank"><i class="fab fa-x-twitter font-16 text-white cursor"></i></a>
+                    <a href="https://www.youtube.com/channel/UCDTxZjA0x7PS1LxXC4S7XgA" target="_blank"><i class="fab fa-youtube font-16 text-white cursor"></i></a>
+                    <a href="https://www.instagram.com/ethaxtrader/?next=%2Fethaxcrypto%2F" target="_blank"><i class="fab fa-instagram font-16 text-white cursor"></i></a>
+                    <a href="https://www.tiktok.com/@ethaxtrader" target="_blank"><i class="fab fa-tiktok font-16 text-white cursor"></i></a>
+                </div>
+            </div>
+            <div class="contact_child3 fx-dc w20">
+                <div class="contact_child3_enquiry fx-dc">
+                    <h3 class="text-white font-22">GENERAL ENQUIRIES</h3>
+                    <a href="mailto:info@ETHAX.com" class="font-15 text-white">info@ethax.com</a>
+                </div>
+                <div class="contact_child3_enquiry">
+                    <h3 class="text-white font-22">SUPPORT ENQUIRIES</h3>
+                    <a href="mailto:support@ETHAX.com" class="font-15 text-white" >support@ethax.com</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="contact_lower w90">
+            <div class="contact_lower_child1 fx-dc">
+                <div class="lower_child1_heading">
+                    <h1 class="font-40 text-white">SIGN-UP FOR THE ETHAX NEWSLETTER</h1>
+                    <p class="font-16 text-white w100">SIGN-UP FOR THE ETHAX NEWSLETTER AND YOU WILL BE THE FIRST TO KNOW ALL THE LATEST INFORMATION
+                        ABOUT ETHAX PRODUCTS, EVENTS, NEWS, SPECIAL OFFERS, COMPETITIONS, REWARDS, AND PRIZES.</p>
+                </div>
+                <div class="lower_child1_subscribe fx-c-center">
+                   <input type="text" placeholder="Name" class="feild text-white font-14 content-font">
+                   <input type="text" placeholder="Email" class="feild text-white font-14 content-font">
+                   <button class="text-black font-14 content-font">Subscribe</button>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>

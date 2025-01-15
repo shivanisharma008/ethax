@@ -1,0 +1,41 @@
+<div class="sidenav">
+    <div class="sidenav_container">
+        <div class="sidenav_body">
+            <img src="../../../assets/images/logo.webp" alt="logo" width="35%" routerLink="/home">
+            <i class="fa-regular fa-circle-xmark text-white" (click)="toggle.emit()"></i>
+        </div>
+        <div class="sidenav_list">
+            <div class="menu_item">
+                <a class="menu_item_child fx-dr text-white font-14 fw-600 content-font cursor" (click)="close()" routerLink="/home">HOME</a>
+            </div>
+            <div class="menu_item fx-dc ">
+                <a class="menu_item_child fx-dr text-white font-14 fx-r-spbtwn content-font fw-600 cursor" (click)="toggleAboutSubMenu()" routerLink="/about-us"><span>ABOUT</span> <i class="fa-solid fa-caret-down" [ngClass]="{'menu-open':isAboutSubMenuOpen}"></i></a>
+                <div *ngIf="isAboutSubMenuOpen" class="submenu fx-dc ">
+                    <a class="font-12 text-white content-font cursor" routerLink="/about-us/discover-ethax" (click)="close()">DISCOVER ETHAX</a>
+                    <a class="font-12 text-white content-font cursor" routerLink="/about-us/products" (click)="close()">PRODUCTS</a>
+                    <a class="font-12 text-white content-font cursor" routerLink="/about-us/faq" (click)="close()">FAQ'S</a>
+                    <a class="font-12 text-white content-font cursor" routerLink="/about-us/contact" (click)="close()">CONTACT</a>
+                </div>
+            </div>
+            <div class="menu_item fx-dc ">
+                <a class="menu_item_child fx-dr text-white font-14 fx-r-spbtwn content-font fw-600 cursor" (click)="toggleServicesSubMenu()" routerLink="/services/ethax-token"><span>SERVICES</span> <i class="fa-solid fa-caret-down" [ngClass]="{'menu-open':isServicesSubMenuOpen}"></i></a>
+                <div *ngIf="isServicesSubMenuOpen" class="submenu fx-dc ">
+                    <a class="font-12 text-white content-font cursor" routerLink="/services/ethax-token" (click)="close()">ETHAX TOKEN</a>
+                    <a class="font-12 text-white content-font cursor" routerLink="/services/ethax-trader" (click)="close()">ETHAX TRADER</a>
+                    <a class="font-12 text-white content-font cursor" routerLink="/services/ethax-dex" (click)="close()">ETHAXSWAP DEX</a>
+                </div>
+            </div>
+
+            <div class="main_buttons fx-dc">
+                <div class="one">
+                    <a href="https://app.ethax.com/" target="_blank"><button class="fx-r-center first bg-blue font-12 text-black fw-700 br-10">ETHAX TRADER <i class="fa-solid fa-chevron-right"></i></button></a>
+                </div>
+                <div class="one">
+                    <button class="fx-r-center second bg-purple text-white font-12 fw-700 br-10 cursor"
+                        routerLink="/shared/buy-ethax">BUY ETHAX <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
