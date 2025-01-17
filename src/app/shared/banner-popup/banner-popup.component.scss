@@ -1,0 +1,61 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    gap: 15px;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button {
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1feff6;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .popup-content {
+      width: 80%; /* Reduce the width on tablets and small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .popup-content {
+      width: 90%; /* Almost full width for smaller devices */
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    p {
+      font-size: 14px; /* Adjust font size for better readability */
+      line-height: 1.5; /* Improve line spacing on small screens */
+    }
+  
+    button {
+      width: 100%; /* Button spans full width for easier clicks on mobile */
+      padding: 12px; /* Increase padding slightly for touch interaction */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
